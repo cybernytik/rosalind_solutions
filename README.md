@@ -43,7 +43,7 @@ NB: Мы не пушим напрямую в `main`! Работаем через
 ### Шаг 4: Push и Pull Request
 1. Отправьте ветку в свой форк:
   ```bash
-  git push origin task_DNA
+     git push origin task_DNA
 
 2. Зайдите на GitHub в свой форк. Вы увидите кнопку Compare & pull request (зеленая). Нажмите её.
   **Важно**: убедитесь, что стрелка идет из вашего task_DNA в main оригинального репозитория (base repository).
@@ -58,7 +58,7 @@ NB: Мы не пушим напрямую в `main`! Работаем через
   1. Внесите правки в файлы в той же ветке (task_DNA).
   2. Сделайте коммит и пуш:
     ```bash
-    git add .
-    git commit -m "Исправление: добавлена обработка ошибок"
-    git push origin task_DNA
+       git add .
+       git commit -m "Исправление: добавлена обработка ошибок"
+       git push origin task_DNA
   PR обновится автоматически. Новый PR создавать не нужно.
