@@ -32,12 +32,12 @@
    git checkout main
    git pull upstream main
 
-3. Создайте новую ветку (называйте по ID задачи)
+3. Создайте новую ветку (называйте своим ником)
    ```bash
-   git checkout -b task_ID
+   git checkout -b task_ваш_ник
 
 ### Шаг 3: Непосредственно работа и коммит
-1. Создайте папку `problem_DNA` и сохраните в ней файл `solution_ID.py`.
+1. Создайте папку `problem_ID` (по ID задачи) и сохраните в ней файл `solution_ID.py`.
 2. Сохраните изменения.
 3. Закоммитьте:
    ```bash
